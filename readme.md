@@ -1,4 +1,6 @@
-The exercises in the following slides are designed to support learning and are a great help in preparing for the final exam. The more challenging exercises also serve as an in-depth exploration for those who wish to deepen their understanding beyond the core material
+# Data structure & Algorithm Exercices
+
+The following exercises are designed to support learning and are a great help in preparing for the final exam in data structure and algorithm. The more challenging exercises also serve as an in-depth exploration for those who wish to deepen their understanding beyond the core material
 
 1. Write a function that checks whether a given string of brackets is balanced. Examples:
     
@@ -11,11 +13,13 @@ The exercises in the following slides are designed to support learning and are a
     The solution must use a stack explicitly
     
 2. Explain what hash tables are and how they differ from a list and a set. Provide a real-world example where using a hash table would be more efficient than other data structures
+
 3. Define the following types of graphs, highlighting key differences and giving at least one possible use case for each:
     - directed graph
     - weighted graph
     - cyclic graph
     - bipartite graph
+
 4. Explain the differences in terms of time complexity, space complexity, and stability between at least three sorting algorithms (e.g., Bubble Sort, Merge Sort, Quick Sort). For each of the following cases, identify which algorithm would be the most suitable and why:
     - An already sorted input
     - A reversed input
@@ -29,6 +33,7 @@ The exercises in the following slides are designed to support learning and are a
     ```
     
 6. Write a Python function that implements the Merge Sort algorithm. Include comments explaining how the algorithm works step-by-step. Optionally, discuss its time and space complexity
+
 7. Analyze the time and space complexity of the following algorithm. Use Big-O notation and justify your answer
     
     ```python
@@ -42,6 +47,7 @@ The exercises in the following slides are designed to support learning and are a
     ```
     
 8. Write a Python function that, given a binary tree (not necessarily a binary search tree), returns the sum of the values stored in all nodes at even depth levels (level 0, 2, 4, ...). Briefly justify your choice of traversal method (recursion or queue)
+
 9. Given a list of non-negative integers, write a function to determine if it is possible to reach the last index starting from index 0. Each value in the list represents the maximum number of steps you can jump forward from that position. Examples:
     
     ```python
@@ -50,8 +56,11 @@ The exercises in the following slides are designed to support learning and are a
     ```
     
 10. You are given two queues. Write a Python class that uses only these two queues to simulate a stack. Implement both push and pop operations
+
 11. Describe how Dijkstraʼs algorithm works. What is the main difference compared to Bellman-Ford? Then implement Dijkstraʼs algorithm in Python using a dictionary to represent the graph and a priority queue for node selection
+
 12. Write a function that returns the length of the longest path in a binary tree (not necessarily balanced or a BST), where the path can start and end at any node and must go through parent-child connections
+
 13. Given an array of characters, return a string where the characters are sorted by decreasing frequency. Example:
 
 ```python
