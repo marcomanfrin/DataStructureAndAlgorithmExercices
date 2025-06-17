@@ -4,9 +4,9 @@ Gli esercizi seguenti sono pensati per supportare l'apprendimento e sono di gran
 
 ---
 
-big o
+##big o
 
-1. Analizza la complessità temporale e spaziale del seguente algoritmo. Usa la notazione Big-O e giustifica la tua risposta: (big o)
+1. Analizza la complessità temporale e spaziale del seguente algoritmo. Usa la notazione Big-O e giustifica la tua risposta:
 
    ```python
    python
@@ -21,40 +21,28 @@ big o
 
    ```
 
-array e list 
+##array e list
 
-2. Scrivi una funzione Python che, data una lista collegata (linked list) singolarmente concatenata di interi ordinati in ordine crescente, rimuove tutti i duplicati mantenendo solo una copia per ogni valore. (linked list)
-
-   Esempio:
+2. Scrivi una funzione Python che, data una lista collegata (linked list) singolarmente concatenata di interi ordinati in ordine crescente, rimuove tutti i duplicati mantenendo solo una copia per ogni valore. Esempio:
 
    ```python
-   python
-   CopiaModifica
    Input: 1 -> 2 -> 2 -> 3 -> 4 -> 4 -> 4 -> 5
    Output: 1 -> 2 -> 3 -> 4 -> 5
    ```
 
-3. Data una lista di interi non negativi, scrivi una funzione che determini se è possibile raggiungere l'ultimo indice partendo dall'indice 0. Ogni valore nella lista rappresenta il numero massimo di passi avanti che puoi compiere da quella posizione. (linked list)
-
-   Esempio:
+3. Data una lista di interi non negativi, scrivi una funzione che determini se è possibile raggiungere l'ultimo indice partendo dall'indice 0. Ogni valore nella lista rappresenta il numero massimo di passi avanti che puoi compiere da quella posizione. Esempio:
 
    ```python
-   python
-   CopiaModifica
    Input: [3, 2, 1, 0, 4] → Output: False
    Input: [2, 3, 1, 1, 4] → Output: True
 
    ```
 
-stack and queues
+##stack and queues
 
-4. Scrivi una funzione che verifica se una data stringa di parentesi è bilanciata. (stack)
-
-   Esempio:
+4. Scrivi una funzione che verifica se una data stringa di parentesi è bilanciata. Esempio:
 
    ```python
-   python
-   CopiaModifica
    ([]{}) → True
    ([)] → False
    ((())) → True
@@ -62,52 +50,47 @@ stack and queues
 
    La soluzione deve usare esplicitamente uno **stack**.
 
-5. Hai due code (queue). Scrivi una classe Python che utilizza solo queste due code per simulare una pila (stack). Implementa le operazioni di `push` e `pop`. (queue)
+5. Hai due code (queue). Scrivi una classe Python che utilizza solo queste due code per simulare una pila (stack). Implementa le operazioni di `push` e `pop`.
 
-trees 
+##trees
 
-6. Scrivi una funzione Python che, dato un albero binario (non necessariamente un albero binario di ricerca), restituisce la somma dei valori dei nodi ai livelli di profondità pari (livello 0, 2, 4, ...). Giustifica brevemente la tua scelta del metodo di attraversamento (ricorsione o coda). (trees)
+6. Scrivi una funzione Python che, dato un albero binario (non necessariamente un albero binario di ricerca), restituisce la somma dei valori dei nodi ai livelli di profondità pari (livello 0, 2, 4, ...). Giustifica brevemente la tua scelta del metodo di attraversamento (ricorsione o coda).
 
-7. Scrivi una funzione che restituisce la lunghezza del percorso più lungo in un albero binario (non necessariamente bilanciato né un BST), dove il percorso può iniziare e finire in qualsiasi nodo e deve seguire solo connessioni padre-figlio. (trees)
+7. Scrivi una funzione che restituisce la lunghezza del percorso più lungo in un albero binario (non necessariamente bilanciato né un BST), dove il percorso può iniziare e finire in qualsiasi nodo e deve seguire solo connessioni padre-figlio.
 
-graphs
+##graphs
 
-8. Definisci i seguenti tipi di grafi, evidenziando le differenze principali e fornendo almeno un caso d'uso per ciascuno: (graphs)
+8. Definisci i seguenti tipi di grafi, evidenziando le differenze principali e fornendo almeno un caso d'uso per ciascuno:
 
+   - Grafo orientato
+   - Grafo pesato
+   - Grafo ciclico
+   - Grafo bipartito
 
-    - Grafo orientato
-    - Grafo pesato
-    - Grafo ciclico
-    - Grafo bipartito
+9. Descrivi come funziona l'algoritmo di Dijkstra. Qual è la differenza principale rispetto all’algoritmo di Bellman-Ford? Poi implementa l’algoritmo di Dijkstra in Python usando un dizionario per rappresentare il grafo e una coda di priorità per la selezione dei nodi.
 
-9.  Descrivi come funziona l'algoritmo di Dijkstra. Qual è la differenza principale rispetto all’algoritmo di Bellman-Ford? Poi implementa l’algoritmo di Dijkstra in Python usando un dizionario per rappresentare il grafo e una coda di priorità per la selezione dei nodi. (graph)
+##hash table
 
-hash table
+10. Spiega cosa sono le tabelle hash (hash table) e in cosa differiscono da una lista e da un insieme (set). Fornisci un esempio concreto in cui usare una tabella hash è più efficiente rispetto ad altre strutture dati.
 
-10. Spiega cosa sono le tabelle hash (hash table) e in cosa differiscono da una lista e da un insieme (set). Fornisci un esempio concreto in cui usare una tabella hash è più efficiente rispetto ad altre strutture dati. (hash table)
+##sorting
 
-sorting 
-
-11. Spiega le differenze in termini di complessità temporale, spaziale e stabilità tra almeno tre algoritmi di ordinamento (es. Bubble Sort, Merge Sort, Quick Sort). Per ciascuno dei seguenti casi, indica quale algoritmo è più adatto e perché: (sorting)
-
+11. Spiega le differenze in termini di complessità temporale, spaziale e stabilità tra almeno tre algoritmi di ordinamento (es. Bubble Sort, Merge Sort, Quick Sort). Per ciascuno dei seguenti casi, indica quale algoritmo è più adatto e perché:
 
     - Input già ordinato
     - Input in ordine inverso
     - Input con molti duplicati
     - Input molto grande (milioni di elementi)
 
-12. Scrivi una funzione Python che implementa l’algoritmo di Merge Sort. Includi commenti che spiegano passo dopo passo come funziona l’algoritmo. Facoltativamente, discuti la sua complessità temporale e spaziale. (sorting)
+12. Scrivi una funzione Python che implementa l’algoritmo di Merge Sort. Includi commenti che spiegano passo dopo passo come funziona l’algoritmo. Facoltativamente, discuti la sua complessità temporale e spaziale.
 
-13. Data una lista di caratteri, restituisci una stringa in cui i caratteri sono ordinati in base alla frequenza decrescente. (sorting)
-    Esempio:
-
+13. Data una lista di caratteri, restituisci una stringa in cui i caratteri sono ordinati in base alla frequenza decrescente. Esempio:
 
     ```python
-    python
-    CopiaModifica
     Input: ['a', 'b', 'a', 'c', 'a', 'b']
     Output: "aaabbc"
     ```
+
     Suggerimento: Usa una tabella hash per contare le frequenze, poi ordina in base alla frequenza.
 
 14. Per ciascuno dei seguenti algoritmi di ordinamento, indica se è stabile o instabile, e spiega cosa significa "stabilità" nel contesto degli algoritmi di ordinamento: (sorting)
